@@ -1,11 +1,6 @@
 **LED Display Panel**
 Led art installation - 2D matrix display panel - 3D printed and easy to assemble
 
-**Table of content**
-
-[Headers](#headers)  
-[Emphasis](#emphasis)  
-
 ### Introduction
 
 This repository contains instruction on how to assemble a 9*28 led display matrix. The display uses WS2812B LED strips (60 led/meters) and an ESP8266 flashed with WLED.
