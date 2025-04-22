@@ -11,7 +11,7 @@ Start by printing the part available on maker lab. You will need at least the ba
 
 1. Cutting the led strip.
 Cut the led strip to length, you need 9 strip with each 28 leds. You can use the 2 back plates to quickly measure the led strips.
-   ![Alt text](images/BackPanel_LedStripMeasurement.JPG?raw=true "StripMeasurement")
+   ![Alt text](images/BackPanel_LedStrip_Measurement.JPG?raw=true "StripMeasurement")
 
 2. Connect the 2 back plate via the connection plate.
 Use 4 M3*8mm screws to connect the connection plate to the 2 back plates.
