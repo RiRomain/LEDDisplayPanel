@@ -1,4 +1,5 @@
 **LED Display Panel**
+
 Led art installation - 2D matrix display panel - 3D printed and easy to assemble
 
 ### Introduction
@@ -7,7 +8,7 @@ This repository contains instruction on how to assemble a 9*28 led display matri
 
 ### Assembly
 
-Start by printing the part available on maker lab. You will need at least the back connection plate as well as the 2 back panels to start the assembly.
+Start by printing the part available on maker world. You will need at least the back connection plate as well as the 2 back panels to start the assembly.
 
 1. Cutting the led strip. 
 
