@@ -39,9 +39,9 @@ Start by printing the part available on maker world. You will need at least the 
    
    ![LedStrip_AllSignalWire.JPG](images/LedStrip_AllSignalWire.JPG "Signal wires installed")
 6. Connect the positive and negative of each strip with the strip above and under using some 18AWG wires.
-   ![LedStrip_PowerWiresInstalled.JPG](images%2FLedStrip_PowerWiresInstalled.JPG "Power wires installed")
+   ![LedStrip_PowerWiresInstalled.JPG](images/LedStrip_PowerWiresInstalled.JPG "Power wires installed")
 7. Next add longer 18AWG wires that will be used to power the strips, those need to be long enough to connect from the strips to the wago holder on the connection plate.
-   ![JoiningPlate_PopulatedHalf.JPG](images%2FJoiningPlate_PopulatedHalf.JPG "Power connection wires")
+   ![JoiningPlate_PopulatedHalf.JPG](images/JoiningPlate_PopulatedHalf.JPG "Power connection wires")
 8. Add a sacriphisial LED to the wemos D1 mini. 
 
    In order to control the led strip, a 5V signal is needed. One WS2812b can be used to boost the signal from 3.3V to 5V.
@@ -53,4 +53,4 @@ Start by printing the part available on maker world. You will need at least the 
 9. Connect the wemos to power.
 
    Connect 2 wires to the 5V and ground pin of the single LED, making sure they are long enough to reach the wago holder on the connection plate.
-   ![JoiningPlate_Populated2.JPG](images%2FJoiningPlate_Populated2.JPG "Wemos connection")
+   ![JoiningPlate_Populated2.JPG](images/JoiningPlate_Populated2.JPG "Wemos connection")
