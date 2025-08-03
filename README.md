@@ -8,17 +8,17 @@ This repository contains instruction on how to assemble a 9*28 led display matri
 
 ### Bill of material
 
-- 1 wemos D1 mini (any clones work, I took one with USB C) - 2.4€
-- 4.2 meters of 60 leds / meter WS2812b strip (252 leds + one led used as signal amplifier) - I use BTF lighting brand - 8.79€
-- a 5 volts power supply - depending on how bright you want it to become, anything between 3A (15W) and 10A (50) would do - 12€ for 10A
-- a DC jack input port - 0.6€
-- a resistor, any between 200 and 500 will do - a few cents
-- 4 meters of thin wires (max diam. 1mm) for the signal wire - I used a sacrificial ethernet cable
-- 60cm of 18 AWG cable or equivalent (max diam. 2mm) - 50 cents
+- 1 wemos D1 mini (any clones work, I took one with USB C) - [2.49€ for on Aliexpress](https://s.click.aliexpress.com/e/_oFv1SbX)
+- 4.2 meters of 60 leds / meter WS2812b 5V IP30 strip (252 leds + one led used as signal amplifier) - [8.79€ on Aliexpress](https://s.click.aliexpress.com/e/_oFkeAhT)
+- a 5 volts power supply - depending on how bright you want it to become, anything between 1A (5W) and 5A (25W) would do - [3.45€ on Aliexpress for 2A](https://s.click.aliexpress.com/e/_oFSjq2z)
+- a DC jack input port - [1.09€ on Aliexpress for 5 pieces](https://s.click.aliexpress.com/e/_om4srWZ)
+- a resistor, any value between 200Ω and 500Ω will do - [1.09€ for 100 pieces on Aliexpress](https://s.click.aliexpress.com/e/_oEi3eEl)
+- 4 meters of thin wires (max diam. 1mm - 28/30AG) for the signal wire - I used a sacrificial ethernet cable - [2.09€ for 10M 30AWG on Aliexpress](https://s.click.aliexpress.com/e/_omLRoaV)
+- 60cm of 18 AWG cable or equivalent (max diam. 2mm) - [3.29€ for 5M 18AWG on Aliexpress](https://s.click.aliexpress.com/e/_omLRoaV)
 
 Optional:
-- a capacitor, any above 5volts and above 450uf will do - it will help the power supply in case of sudden change of consumption - 1€
-- 3 Wago 221 connection clamps, 2x3 pin(221-413), 1x2pin (221-412) - you can solder directly to the esp, but this helps with assembly - 1.5€
+- a capacitor, any above 5 volts and above 450uf will do - it will help the power supply in case of sudden change of consumption - [1.59€ for 20 6.3V 1000uf on Aliexpress](https://s.click.aliexpress.com/e/_okpESW5)
+- 3 Wago 221 connection clamps, 2x3 pin(221-413), 1x2pin (221-412) - you can solder directly to the esp, but this helps with assembly - 1.5€ 
 
 ### Assembly
 
