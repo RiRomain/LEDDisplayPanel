@@ -10,11 +10,12 @@ This repository contains instruction on how to assemble a 9*28 led display matri
 
 - 1 wemos D1 mini (any clones work, I took one with USB C) - [2.49€ for on Aliexpress](https://s.click.aliexpress.com/e/_oFv1SbX)
 - 4.2 meters of 60 leds / meter WS2812b 5V IP30 strip (252 leds + one led used as signal amplifier) - [8.79€ on Aliexpress](https://s.click.aliexpress.com/e/_oFkeAhT)
-- a 5 volts power supply - depending on how bright you want it to become, anything between 1A (5W) and 5A (25W) would do - [3.45€ on Aliexpress for 2A](https://s.click.aliexpress.com/e/_oFSjq2z)
-- a DC jack input port - [1.09€ on Aliexpress for 5 pieces](https://s.click.aliexpress.com/e/_om4srWZ)
+- a 5 volts power supply - depending on how bright you want it to become, anything between 1A (5W) and 5A (25W) would do - [3.45€ for 2A on Aliexpress](https://s.click.aliexpress.com/e/_oFSjq2z)
+- a DC jack input port - [1.09€ for 5 pieces on Aliexpress](https://s.click.aliexpress.com/e/_om4srWZ)
 - a resistor, any value between 200Ω and 500Ω will do - [1.09€ for 100 pieces on Aliexpress](https://s.click.aliexpress.com/e/_oEi3eEl)
-- 4 meters of thin wires (max diam. 1mm - 28/30AG) for the signal wire - I used a sacrificial ethernet cable - [2.09€ for 10M 30AWG on Aliexpress](https://s.click.aliexpress.com/e/_omLRoaV)
-- 60cm of 18 AWG cable or equivalent (max diam. 2mm) - [3.29€ for 5M 18AWG on Aliexpress](https://s.click.aliexpress.com/e/_omLRoaV)
+- 4 meters of thin wires (max diam. 1mm - 28/30AG) for the signal wire - I used a sacrificial ethernet cable - [2.09€ for 10 meters 30AWG on Aliexpress](https://s.click.aliexpress.com/e/_omLRoaV)
+- 60cm of 18 AWG cable or equivalent (max diam. 2mm) - [3.29€ for 5 meters 18AWG on Aliexpress](https://s.click.aliexpress.com/e/_omLRoaV)
+- 10 M3*8mm screws - [1.39€ for 50 pieces on Aliexpress](https://s.click.aliexpress.com/e/_oCGHbgN)
 
 Optional:
 - a capacitor, any above 5 volts and above 450uf will do - it will help the power supply in case of sudden change of consumption - [1.59€ for 20 6.3V 1000uf on Aliexpress](https://s.click.aliexpress.com/e/_okpESW5)
@@ -22,16 +23,16 @@ Optional:
 
 ### Assembly
 
-Start by printing the part available on maker world. You will need at least the back connection plate as well as the 2 back panels to start the assembly.
+Start by printing the part available on [maker world](https://makerworld.com/en/models/1665902). You will need at least the joining plate as well as the 2 back panels to start the assembly.
 
 1. Cutting the led strip. 
 
    Cut the led strip to length, you need 9 strip with each 28 leds. You can use the 2 back panels to quickly measure the led strips.
    ![Alt text](images/BackPanel_LedStrip_Measurement.JPG?raw=true "StripMeasurement")
 
-2. Connect the 2 back panel via the connection plate. 
+2. Connect the 2 back panel via the joining plate. 
 
-   Use 4 M3*8mm screws to connect the connection plate to the 2 back panels.
+   Use 4 M3*8mm screws to connect the joining plate to the 2 back panels.
    ![BackPanel_JoiningPlate.JPG](images/BackPanel_JoiningPlate.JPG "Back panels connected")
 3. Stick the led strip to the back panels. 
 
@@ -42,7 +43,7 @@ Start by printing the part available on maker world. You will need at least the 
 
    You need a thin cable to fit into the data line slots, around 1mm in diameter. I've used a sacriphicial ethernet cable.
 
-   Lay the data line cable in the top left chanel, to start on Din, and go through its dedicated chanel to the connection plate, leave enough cable out the back to later connect the ESP to it (about 10cm extra). 
+   Lay the data line cable in the top left chanel, to start on Din, and go through its dedicated chanel to the joining plate, leave enough cable out the back to later connect the ESP to it (about 10cm extra). 
 
    Strip 1 mm off of the cable, and solder it to Din.
    ![LedStrip_FirstSignalWire.JPG](images/LedStrip_FirstSignalWire.JPG "Signal wire installed")
@@ -54,7 +55,7 @@ Start by printing the part available on maker world. You will need at least the 
    ![LedStrip_AllSignalWire.JPG](images/LedStrip_AllSignalWire.JPG "Signal wires installed")
 6. Connect the positive and negative of each strip with the strip above and under using some 18AWG wires.
    ![LedStrip_PowerWiresInstalled.JPG](images/LedStrip_PowerWiresInstalled.JPG "Power wires installed")
-7. Next add longer 18AWG wires that will be used to power the strips, those need to be long enough to connect from the strips to the wago holder on the connection plate.
+7. Next add longer 18AWG wires that will be used to power the strips, those need to be long enough to connect from the strips to the wago holder on the joining plate.
    ![JoiningPlate_PopulatedHalf.JPG](images/JoiningPlate_PopulatedHalf.JPG "Power connection wires")
 8. Add a sacriphisial LED to the wemos D1 mini. 
 
