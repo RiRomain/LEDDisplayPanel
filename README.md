@@ -6,6 +6,20 @@
 
 This repository contains instruction on how to assemble a 9*28 led display matrix. The display uses WS2812B LED strips (60 led/meters) and an ESP8266 flashed with WLED.
 
+### Bill of material
+
+- 1 wemos D1 mini (any clones work, I took one with USB C) - 2.4€
+- 4.2 meters of 60 leds / meter WS2812b strip (252 leds + one led used as signal amplifier) - 8.79€
+- a 5 volts power supply - depending on how bright you want it to become, anything between 3A (15W) and 10A (50) would do - 12€ for 10A
+- a DC jack input port - 0.6€
+- a resistor, any between 200 and 500 will do - a few cents
+- 4 meters of thin wires (max diam. 1mm) for the signal wire - I used a sacrificial ethernet cable
+- 60cm of 18 AWG cable or equivalent (max diam. 2mm) - 50 cents
+
+Optional:
+- a capacitor, any above 5volts and above 450uf will do - it will help the power supply in case of sudden change of consumption - 1€
+- 3 Wago 221 connection clamps, 2x3 pin(221-413), 1x2pin (221-412) - you can solder directly to the esp, but this helps with assembly - 1.5€
+
 ### Assembly
 
 Start by printing the part available on maker world. You will need at least the back connection plate as well as the 2 back panels to start the assembly.
