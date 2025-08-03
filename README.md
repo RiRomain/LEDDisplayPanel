@@ -79,11 +79,11 @@ Start by printing the part available on maker world. You will need at least the 
 2. Configured WLED in Settings->LED Preferences
    Start by enabling the automatic brigtness limiter and configure the max power of your power supply
    Configure the LED output with type: WS821x, m/LED: 55mA, Color order: GRB, Start: 0, Lenght: 253, Data GPIO: 3, and finally set Skip first LEDs: 1. Leave the rest to default and save.
-   (See full config ![here](images/LED_Preferences.png "LED Preferences"))
+   (See full config [here](images/LED_Preferences.png "LED Preferences"))
 3. Then go back to Settings, and go in 2D Configuration.
    In Strip or panel select: 2D matrix.
    Cofigure as follow: Number of panels 1, 1st LED: Top Left, Orientation: Horizontal, Dimensions: 28x9, Offset: X:0 Y:0. Save your change.
-   (See full config ![here](images/2D_Configuration.png "2D Configuration"))
+   (See full config [here](images/2D_Configuration.png "2D Configuration"))
 4. You can now use the effect Scrolling text to display text. It display the name of the segment as text, you can use #HHMM as segment name if you want to display the time.
    Adjust the Y Offset in the effect setting to center the text.
-5. If something is not as expected, make sure you have the same segment configuration as in this ![screenshot](images/Segments.png "Sements confiuration").
+5. If something is not as expected, make sure you have the same segment configuration as in this [screenshot](images/Segments.png "Sements confiuration").
