@@ -75,4 +75,4 @@ Start by printing the part available on maker world. You will need at least the 
 
 ### Programming
 
-I used 
+1. I used WLED to control the screen, it works out of the box. Follow [the guide at wled](https://kno.wled.ge/basics/getting-started/) to flash the esp with WLED
