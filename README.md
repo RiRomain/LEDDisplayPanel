@@ -9,7 +9,7 @@ This repository contains instruction on how to assemble a 9*28 led display matri
 ### Bill of material
 
 - 1 wemos D1 mini (any clones work, I took one with USB C) - 2.4€
-- 4.2 meters of 60 leds / meter WS2812b strip (252 leds + one led used as signal amplifier) - 8.79€
+- 4.2 meters of 60 leds / meter WS2812b strip (252 leds + one led used as signal amplifier) - I use BTF lighting brand - 8.79€
 - a 5 volts power supply - depending on how bright you want it to become, anything between 3A (15W) and 10A (50) would do - 12€ for 10A
 - a DC jack input port - 0.6€
 - a resistor, any between 200 and 500 will do - a few cents
@@ -68,3 +68,11 @@ Start by printing the part available on maker world. You will need at least the 
 
    Connect 2 wires to the 5V and ground pin of the single LED, making sure they are long enough to reach the wago holder on the connection plate.
    ![JoiningPlate_Populated2.JPG](images/JoiningPlate_Populated2.JPG "Wemos connection")
+
+10. Connect the power in jack to the wago connector
+
+    Simply solder a positive and negative wire to the DC jack input port and insert into the corresponding wago connector.
+
+### Programming
+
+I used 
