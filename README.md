@@ -18,7 +18,7 @@ This repository contains instruction on how to assemble a 9*28 led display matri
 
 Optional:
 - a capacitor, any above 5 volts and above 450uf will do - it will help the power supply in case of sudden change of consumption - [1.59€ for 20 6.3V 1000uf on Aliexpress](https://s.click.aliexpress.com/e/_okpESW5)
-- 3 Wago 221 connection clamps, 2x3 pin(221-413), 1x2pin (221-412) - you can solder directly to the esp, but this helps with assembly - 1.5€ 
+- 3 Wago 221 splicing connectors, 2x3 pin(221-413), 1x2pin (221-412) - you can solder directly to the esp, but this helps with assembly - 1.5€ 
 
 ### Assembly
 
